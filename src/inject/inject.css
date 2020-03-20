@@ -1,0 +1,88 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+
+@media only screen and (max-width: 1024px) {
+    .tralbum-page .trackView .inline_player {
+        right: initial !important;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .tralbum-page #menubar-wrapper {
+        position: fixed !important;
+        height: 94px !important;
+        box-shadow: 0px 1px #EEE !important;
+    }
+
+    .tralbum-page #menubar-vm {
+        padding: 10px 20px !important;
+    }
+
+    .tralbum-page #menubar-vm.hide {
+        top: 0 !important;
+    }
+
+    .tralbum-page .corp-home #centerWrapper {
+        top: 0 !important;
+    }
+
+    .tralbum-page #centerWrapper {
+        top: 94px !important;
+        position: relative !important;
+    }
+
+    .tralbum-page #menubar-wrapper.header-rework-2018 .menubar-outer {
+        box-shadow: none !important;
+        top: 10px !important;
+    }
+
+    .tralbum-page .back-to-label-link {
+        top: 94px !important;
+    }
+
+    .tralbum-page .menubar-2018 {
+        box-shadow: none !important;
+    }
+
+    .tralbum-page #header-wrapper.header-rework-2018 {
+        height: 94px !important;
+    }
+
+    .tralbum-page .trackView .inline_player {
+        position: fixed !important;
+        top: 0 !important;
+        z-index: 9999 !important;
+        right: 16vw !important;
+        top: 23px !important;
+        margin-top: 0 !important;
+    }
+
+    .tralbum-page .trackView .inline_player .title_link {
+        color: #363636 !important;
+    }
+
+    .tralbum-page .trackView .inline_player .secondaryText {
+        color: #888888 !important;
+    }
+
+    .invertIconography .trackView .inline_player .title_link {
+        color: #FFFFFF !important;
+    }
+
+    .invertIconography .trackView .inline_player .secondaryText {
+        color: #FFFFFF !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .tralbum-page .trackView .inline_player {
+        right: 25vw !important;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .tralbum-page .trackView .inline_player {
+        right: 30vw !important;
+    }
+}
